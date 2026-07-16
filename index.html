@@ -1,193 +1,443 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>For Zhorfa 🤍</title>
+    <title>Zhorfa | TV Girl</title>
+
+    <meta name="description"
+        content="A nostalgic TV Girl inspired website made especially for Zhorfa.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
 
-<div id="background"></div>
+    <!-- Loading -->
 
-<div id="hearts"></div>
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <p>Loading...</p>
+    </div>
 
-<div id="stars"></div>
+    <!-- Background -->
 
-<div class="hero">
+    <div class="bg-overlay"></div>
+    <div class="noise"></div>
 
-    <div class="glass">
+    <!-- Navigation -->
 
-        <span class="small-text">
-            just for you
-        </span>
+    <header>
 
-        <h1>
-            Hey,
-            <span class="name">
+        <nav class="navbar">
+
+            <a href="#" class="logo">
                 Zhorfa
-            </span>
-        </h1>
+            </a>
 
-        <p>
+            <ul class="nav-links">
 
-            I made something...
+                <li><a href="#home">Home</a></li>
 
-            <br>
+                <li><a href="#story">Story</a></li>
 
-            only for you.
+                <li><a href="#gallery">Gallery</a></li>
 
-        </p>
+                <li><a href="#playlist">Playlist</a></li>
 
-        <button id="openBtn">
+                <li><a href="#letter">Letter</a></li>
 
-            Open
+            </ul>
 
-        </button>
+            <div class="menu-btn">
 
-    </div>
+                <span></span>
+                <span></span>
+                <span></span>
 
-</div>
+            </div>
 
-<main id="main" class="hidden">
+        </nav>
 
-<section class="panel fade">
+    </header>
 
-<h2>
+    <!-- Hero -->
 
-Who's the prettiest girl
-<br>
-in the world?
+    <section class="hero" id="home">
 
-</h2>
+        <div class="hero-content">
 
-<div id="typing">
+            <p class="small-text">
+                A little place between memories
+            </p>
 
-</div>
+            <h1>
+                TV GIRL
+            </h1>
 
-</section>
+            <h2>
+                For Zhorfa
+            </h2>
 
-<section class="panel fade">
+            <p class="hero-description">
 
-<p>
+                Some people disappear.
 
-There are billions of people.
+                Some people stay inside songs.
 
-</p>
+                This website is for the second kind.
 
-<p>
+            </p>
 
-Somehow...
+            <div class="hero-buttons">
 
-</p>
+                <a href="#story" class="btn">
+                    Explore
+                </a>
 
-<h2>
+                <a href="#playlist" class="btn-outline">
+                    Playlist
+                </a>
 
-you're still my favorite.
+            </div>
 
-</h2>
+        </div>
 
-</section>
+        <div class="scroll-down">
 
-<section class="panel fade">
+            <span></span>
 
-<p>
+        </div>
 
-I don't know how to explain it.
+    </section>
 
-</p>
+    <!-- Story -->
 
-<p>
+    <section class="story section" id="story">
 
-I just like seeing you happy.
+        <div class="container">
 
-</p>
+            <div class="section-title">
 
-</section>
-<section class="panel fade">
+                <p>Chapter One</p>
 
-    <h2>
-        Who's my favorite person?
-    </h2>
+                <h2>
+                    The Feeling
+                </h2>
 
-    <div class="choice-buttons">
+            </div>
 
-        <button id="noBtn">
-            Someone else
-        </button>
+            <div class="story-grid">
 
-        <button id="yesBtn">
-            Zhorfa
-        </button>
+                <div class="story-card">
 
-    </div>
+                    <h3>
+                        Late Nights
+                    </h3>
 
-</section>
+                    <p>
 
-<section class="panel fade">
+                        TV Girl songs always feel like midnight,
+                        old photographs,
+                        and memories that refuse to disappear.
 
-    <h2>
-        You deserve every good thing.
-    </h2>
+                    </p>
 
-</section>
+                </div>
 
-<section class="panel fade">
+                <div class="story-card">
 
-    <h2>
-        One last thing...
-    </h2>
+                    <h3>
+                        Quiet Hearts
+                    </h3>
 
-    <button id="lastBtn">
-        Click here
+                    <p>
+
+                        Sometimes silence says more than
+                        hundreds of conversations.
+
+                    </p>
+
+                </div>
+
+                <div class="story-card">
+
+                    <h3>
+                        Vintage Dreams
+                    </h3>
+
+                    <p>
+
+                        Dust,
+                        film cameras,
+                        cassette tapes,
+                        soft lights,
+                        and forgotten feelings.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- Gallery -->
+
+    <section class="gallery section" id="gallery">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>Moments</p>
+
+                <h2>Gallery</h2>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="images/img1.jpg" alt="Vintage">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/img2.jpg" alt="Night">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/img3.jpg" alt="Memory">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/img4.jpg" alt="Cassette">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/img5.jpg" alt="Sky">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/img6.jpg" alt="Flowers">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Playlist -->
+
+    <section class="playlist section" id="playlist">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>Music</p>
+
+                <h2>Favorite Songs</h2>
+
+            </div>
+
+            <div class="songs">
+
+                <div class="song">
+
+                    <span>01</span>
+
+                    <div>
+
+                        <h3>Lovers Rock</h3>
+
+                        <p>TV Girl</p>
+
+                    </div>
+
+                </div>
+
+                <div class="song">
+
+                    <span>02</span>
+
+                    <div>
+
+                        <h3>Not Allowed</h3>
+
+                        <p>TV Girl</p>
+
+                    </div>
+
+                </div>
+
+                <div class="song">
+
+                    <span>03</span>
+
+                    <div>
+
+                        <h3>Blue Hair</h3>
+
+                        <p>TV Girl</p>
+
+                    </div>
+
+                </div>
+
+                <div class="song">
+
+                    <span>04</span>
+
+                    <div>
+
+                        <h3>Cigarettes out the Window</h3>
+
+                        <p>TV Girl</p>
+
+                    </div>
+
+                </div>
+
+                <div class="song">
+
+                    <span>05</span>
+
+                    <div>
+
+                        <h3>Taking What's Not Yours</h3>
+
+                        <p>TV Girl</p>
+
+                    </div>
+
+                </div>
+
+                <div class="song">
+
+                    <span>06</span>
+
+                    <div>
+
+                        <h3>Heaven Is a Bedroom</h3>
+
+                        <p>TV Girl</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Letter -->
+
+    <section class="letter section" id="letter">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>To Zhorfa</p>
+
+                <h2>A Small Letter</h2>
+
+            </div>
+
+            <div class="letter-box">
+
+                <p>
+
+                    Some people become memories.
+
+                    Others become places.
+
+                    Somehow,
+
+                    you became both.
+
+                </p>
+
+                <p>
+
+                    Maybe that's why every TV Girl song
+                    feels strangely familiar.
+
+                </p>
+
+                <p>
+
+                    Not because of sadness,
+
+                    but because of the quiet beauty
+                    hidden inside ordinary moments.
+
+                </p>
+
+            </div>
+
+        </div>
+
+            </section>
+                <!-- Footer -->
+
+    <footer>
+
+        <div class="container">
+
+            <h2>Zhorfa</h2>
+
+            <p>
+                "Some songs never end.
+                They simply become memories."
+            </p>
+
+            <div class="footer-line"></div>
+
+            <p class="copyright">
+                Made with ♡
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Back To Top -->
+
+    <button class="top-btn" id="topBtn">
+        ↑
     </button>
 
-</section>
+    <!-- Audio -->
 
-</main>
+    <audio id="bgMusic" loop>
+        <source src="music/tvgirl.mp3" type="audio/mpeg">
+    </audio>
 
-<div id="ending" class="hidden">
+    <!-- Cursor -->
 
-    <div class="ending-content">
+    <div class="cursor"></div>
 
-        <h1>
-            Thank you for being you.
-        </h1>
+    <!-- Script -->
 
-        <p>
-            You make my world prettier.
-        </p>
-
-        <p class="signature">
-            — made with love, just for Zhorfa. ♡
-        </p>
-
-    </div>
-
-</div>
-
-<button id="musicBtn" aria-label="Play music">
-    ♫
-</button>
-
-<audio id="bgMusic" loop>
-    <source src="music.mp3" type="audio/mpeg">
-</audio>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
-    </html>
+
+</html>
