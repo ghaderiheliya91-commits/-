@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>For Zhorfa 🤍</title>
@@ -9,147 +12,182 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/6c63f2f5d4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
+<div id="background"></div>
+
 <div id="hearts"></div>
 
-<section class="hero">
+<div id="stars"></div>
+
+<div class="hero">
 
     <div class="glass">
 
-        <h1>Hey, Zhorfa.</h1>
+        <span class="small-text">
+            just for you
+        </span>
 
-        <p>
-            I made this just for you.
-        </p>
-
-        <button id="startBtn">
-            Open it
-        </button>
-
-    </div>
-
-</section>
-
-<section class="content hidden">
-
-    <div class="card fade-up">
-
-        <h2>Who's the prettiest girl in the world?</h2>
-
-        <div id="answer">
-            ...
-        </div>
-
-    </div>
-
-    <div class="card fade-up">
-
-        <p>
-            There are billions of people.
-        </p>
-
-        <p>
-            Somehow...
-        </p>
-
-        <h2>
-            you're still my favorite.
-        </h2>
-
-    </div>
-
-    <div class="card fade-up">
-
-        <h2>
-            Times I've thought about Zhorfa today
-        </h2>
-
-        <div id="counter">
-            0
-        </div>
-
-        <p class="small">
-            I think the number is broken.
-        </p>
-
-    </div>
-    <div class="card fade-up">
-
-        <h2>Who's my favorite person?</h2>
-
-        <div class="buttons">
-
-            <button id="wrongBtn">
-                Someone else
-            </button>
-
-            <button id="rightBtn">
+        <h1>
+            Hey,
+            <span class="name">
                 Zhorfa
-            </button>
+            </span>
+        </h1>
 
-        </div>
+        <p>
+
+            I made something...
+
+            <br>
+
+            only for you.
+
+        </p>
+
+        <button id="openBtn">
+
+            Open
+
+        </button>
 
     </div>
 
-    <div class="card fade-up">
+</div>
 
-        <p>
-            I don't really know how to explain it.
-        </p>
+<main id="main" class="hidden">
 
-        <p>
-            I just like seeing you happy.
-        </p>
+<section class="panel fade">
 
-    </div>
+<h2>
 
-    <div class="card fade-up">
+Who's the prettiest girl
+<br>
+in the world?
 
-        <p>
-            Out of everyone...
-        </p>
+</h2>
 
-        <h2>
-            I'm really glad I met you.
-        </h2>
+<div id="typing">
 
-    </div>
+</div>
 
-    <div class="card fade-up">
+</section>
 
-        <h2>
-            One last thing...
-        </h2>
+<section class="panel fade">
 
-        <button id="lastBtn">
-            Click me
+<p>
+
+There are billions of people.
+
+</p>
+
+<p>
+
+Somehow...
+
+</p>
+
+<h2>
+
+you're still my favorite.
+
+</h2>
+
+</section>
+
+<section class="panel fade">
+
+<p>
+
+I don't know how to explain it.
+
+</p>
+
+<p>
+
+I just like seeing you happy.
+
+</p>
+
+</section>
+<section class="panel fade">
+
+    <h2>
+        Who's my favorite person?
+    </h2>
+
+    <div class="choice-buttons">
+
+        <button id="noBtn">
+            Someone else
+        </button>
+
+        <button id="yesBtn">
+            Zhorfa
         </button>
 
     </div>
 
 </section>
+
+<section class="panel fade">
+
+    <h2>
+        You deserve every good thing.
+    </h2>
+
+</section>
+
+<section class="panel fade">
+
+    <h2>
+        One last thing...
+    </h2>
+
+    <button id="lastBtn">
+        Click here
+    </button>
+
+</section>
+
+</main>
 
 <div id="ending" class="hidden">
 
-    <h1>
-        Thank you for being you.
-    </h1>
+    <div class="ending-content">
 
-    <p>
-        — made with love, just for Zhorfa. 🤍
-    </p>
+        <h1>
+            Thank you for being you.
+        </h1>
+
+        <p>
+            You make my world prettier.
+        </p>
+
+        <p class="signature">
+            — made with love, just for Zhorfa. ♡
+        </p>
+
+    </div>
 
 </div>
+
+<button id="musicBtn" aria-label="Play music">
+    ♫
+</button>
+
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
 
 <script src="script.js"></script>
 
 </body>
-</html>
+    </html>
